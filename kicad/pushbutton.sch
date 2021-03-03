@@ -1,0 +1,274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L barn53-kicad:USB_B_Micro J1
+U 1 1 603FA2BF
+P 2200 1350
+F 0 "J1" H 2257 1817 50  0000 C CNN
+F 1 "USB_B_Micro" H 2257 1726 50  0000 C CNN
+F 2 "barn53-kicad:MicroUSB_through_hole_fixing" H 3225 900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811131820_Jing-Extension-of-the-Electronic-Co-C10418_C10418.pdf" H 2350 1300 50  0001 C CNN
+F 4 "C10418" H 2550 750 50  0001 C CNN "LCSC"
+	1    2200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Management:MCP73831-2-OT U2
+U 1 1 603FE0E5
+P 4250 2700
+F 0 "U2" H 4250 3181 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 4250 3090 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4300 2450 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 4100 2650 50  0001 C CNN
+F 4 "C14879" H 4250 2700 50  0001 C CNN "LCSC"
+	1    4250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Interface-Controllers:CP2102-GMR_NRND U4
+U 1 1 60406A65
+P 3300 4450
+F 0 "U4" H 3400 3353 60  0000 C CNN
+F 1 "CP2102-GMR_NRND" H 3400 3247 60  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 3500 4650 60  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" H 3500 4750 60  0001 L CNN
+F 4 "336-1160-1-ND" H 3500 4850 60  0001 L CNN "Digi-Key_PN"
+F 5 "CP2102-GMR" H 3500 4950 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3500 5050 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 3500 5150 60  0001 L CNN "Family"
+F 8 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" H 3500 5250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/silicon-labs/CP2102-GMR/336-1160-1-ND/3672615" H 3500 5350 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB-TO-UART BRIDGE 28VQFN" H 3500 5450 60  0001 L CNN "Description"
+F 11 "Silicon Labs" H 3500 5550 60  0001 L CNN "Manufacturer"
+F 12 "Not For New Designs" H 3500 5650 60  0001 L CNN "Status"
+F 13 "C6568" H 3300 4450 50  0001 C CNN "LCSC"
+	1    3300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:TLV75533PDBV U3
+U 1 1 604081D3
+P 7900 3950
+F 0 "U3" H 7900 4292 50  0000 C CNN
+F 1 "TLV75533PDBV" H 7900 4201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7900 4275 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 7900 4000 50  0001 C CNN
+F 4 "C404027" H 7900 3950 50  0001 C CNN "LCSC"
+	1    7900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:MAX16054 U1
+U 1 1 6040E0DB
+P 7000 1950
+F 0 "U1" H 7350 2000 50  0000 C CNN
+F 1 "MAX16054" H 6900 2050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 8100 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX16054AZT-T_C79401.pdf" H 6650 1500 50  0001 C CNN
+F 4 "C79401" H 7600 2350 50  0001 C CNN "LCSC"
+	1    7000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:SI2301 Q1
+U 1 1 6040FC83
+P 5350 1400
+F 0 "Q1" H 5538 1446 50  0000 L CNN
+F 1 "SI2301" H 5538 1355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6125 1225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/70627/70627.pdf" H 5520 1390 50  0001 C CNN
+F 4 "C10487" H 5350 1400 50  0001 C CNN "LCSC"
+	1    5350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PUMX1 Q5
+U 1 1 60410CC6
+P 2150 7400
+F 0 "Q5" H 2341 7446 50  0000 L CNN
+F 1 "PUMX1" H 2341 7355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2350 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PUMX1.pdf" H 2150 7400 50  0001 C CNN
+F 4 "C10487" H 2150 7400 50  0001 C CNN "LCSC"
+	1    2150 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PUMX1 Q5
+U 2 1 604194F3
+P 2850 7400
+F 0 "Q5" H 3041 7446 50  0000 L CNN
+F 1 "PUMX1" H 3041 7355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3050 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PUMX1.pdf" H 2850 7400 50  0001 C CNN
+F 4 "C10487" H 2850 7400 50  0001 C CNN "LCSC"
+	2    2850 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:S8050_J3Y Q3
+U 1 1 6041B88F
+P 5900 4750
+F 0 "Q3" H 6091 4796 50  0000 L CNN
+F 1 "S8050_J3Y" H 6091 4705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6100 4675 50  0001 L CIN
+F 3 "Changjiang-Electronics-Tech-CJ-S8050_C2146.pdf" H 5900 4750 50  0001 L CNN
+F 4 "C2146" H 6300 4550 50  0001 C CNN "LCSC"
+	1    5900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:S8050_J3Y Q4
+U 1 1 6041C747
+P 6850 4850
+F 0 "Q4" H 7041 4896 50  0000 L CNN
+F 1 "S8050_J3Y" H 7041 4805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7050 4775 50  0001 L CIN
+F 3 "Changjiang-Electronics-Tech-CJ-S8050_C2146.pdf" H 6850 4850 50  0001 L CNN
+F 4 "C2146" H 7250 4650 50  0001 C CNN "LCSC"
+	1    6850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:NSR0320 D1
+U 1 1 60423400
+P 6150 1150
+F 0 "D1" H 6150 1366 50  0000 C CNN
+F 1 "NSR0320" H 6150 1275 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323F" H 6850 1050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-NSR0320MW2T1G_C48192.pdf" H 6150 1150 50  0001 C CNN
+F 4 "C48192" H 6150 1150 50  0001 C CNN "LCSC"
+	1    6150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6042527F
+P 2500 3150
+F 0 "SW1" H 2500 3435 50  0000 C CNN
+F 1 "SW_Push" H 2500 3344 50  0000 C CNN
+F 2 "barn53-kicad:SMD_Push_Button" H 2500 3350 50  0001 C CNN
+F 3 "~" H 2500 3350 50  0001 C CNN
+	1    2500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:IRLML6402 Q2
+U 1 1 6042750C
+P 9600 1850
+F 0 "Q2" H 9988 1796 50  0000 L CNN
+F 1 "IRLML6402" H 9988 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10600 1700 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 9600 1850 50  0001 C CNN
+F 4 "C2593" H 9988 1659 50  0001 L CNN "LCSC"
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6042D80E
+P 9850 3450
+F 0 "D2" V 9889 3332 50  0000 R CNN
+F 1 "LED Blue" V 9798 3332 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 9850 3450 50  0001 C CNN
+F 3 "~" H 9850 3450 50  0001 C CNN
+F 4 "C2293" V 9850 3450 50  0001 C CNN "LCSC"
+	1    9850 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 6042E445
+P 9650 4050
+F 0 "D3" V 9689 3932 50  0000 R CNN
+F 1 "LED Red" V 9598 3932 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 9650 4050 50  0001 C CNN
+F 3 "~" H 9650 4050 50  0001 C CNN
+F 4 "C84256" V 9650 4050 50  0001 C CNN "LCSC"
+	1    9650 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6042EAF5
+P 9000 2850
+F 0 "R1" H 9070 2896 50  0000 L CNN
+F 1 "10k" H 9070 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 2850 50  0001 C CNN
+F 3 "~" H 9000 2850 50  0001 C CNN
+F 4 "C17414" H 9000 2850 50  0001 C CNN "LCSC"
+	1    9000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 60434A81
+P 7750 1100
+F 0 "J2" H 7858 1281 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7858 1190 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 7750 1100 50  0001 C CNN
+F 3 "~" H 7750 1100 50  0001 C CNN
+	1    7750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:ESP-12F U5
+U 1 1 6043B33F
+P 9500 5400
+F 0 "U5" H 9500 6381 50  0000 C CNN
+F 1 "ESP-12F" H 9500 6290 50  0000 C CNN
+F 2 "barn53-kicad:ESP-12E" H 10100 4600 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 9150 5500 50  0001 C CNN
+F 4 "C82891" H 9850 4500 50  0001 C CNN "LCSC"
+	1    9500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PMBT2222AYS Q6
+U 1 1 6043ECB9
+P 2150 6450
+F 0 "Q6" H 2341 6496 50  0000 L CNN
+F 1 "PMBT2222AYS" H 2341 6405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2350 6550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT2222AYS.pdf" H 2150 6450 50  0001 C CNN
+F 4 "C99140" H 2150 6450 50  0001 C CNN "LCSC"
+	1    2150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PMBT2222AYS Q6
+U 2 1 60440C39
+P 3100 6600
+F 0 "Q6" H 3291 6646 50  0000 L CNN
+F 1 "PMBT2222AYS" H 3291 6555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3300 6700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT2222AYS.pdf" H 3100 6600 50  0001 C CNN
+F 4 "C99140" H 3100 6600 50  0001 C CNN "Field4"
+	2    3100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L barn53-kicad:IPSDisplay_80x160 D4
+U 1 1 6044CAA1
+P 5800 6500
+F 0 "D4" H 6778 7146 50  0000 L CNN
+F 1 "IPSDisplay_80x160" H 6778 7055 50  0000 L CNN
+F 2 "barn53-kicad:IPS_Display_80x160_Bottom_1.6mm" H 6650 6300 50  0001 C CNN
+F 3 "http://www.lcdwiki.com/res/MSP0961/TFT0961-SPEC.pdf" H 5800 6500 50  0001 C CNN
+	1    5800 6500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
