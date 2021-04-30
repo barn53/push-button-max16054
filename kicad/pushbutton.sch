@@ -2716,9 +2716,10 @@ Wire Wire Line
 	7650 7400 7650 8200
 Connection ~ 7650 7400
 Connection ~ 7650 8200
-Connection ~ 7700 8200
-Wire Wire Line
-	7700 8200 7650 8200
 Wire Wire Line
 	7650 8200 8300 8200
+Wire Wire Line
+	11450 4350 10800 4350
+Wire Wire Line
+	10800 4350 10800 5200
 $EndSCHEMATC
